@@ -91,11 +91,12 @@ body{
 
 }
 
-@media (min-width:300px){
+@media (min-width:310px){
     .teclas button{
         width: 20px;
         height: 20px;
         font-size: 13px;
+      
     }
     #plavra-secreta{
         font-size: 1.2em;
