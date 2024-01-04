@@ -93,11 +93,19 @@ body{
 
 @media (min-width:300px){
     .teclas button{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+    }
+    #plavra-secreta{
+        font-size: 1.2em;
+    }
+
+    .letras{
+        width: 15px;
     }
     #categoria{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
 
