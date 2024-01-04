@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/forca.css" media="screen">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+<div class="container">
+<div id="imagem"></div>
+<div id="palavra-secreta">
+    <!--<div class="letras">A</div>
+    <div class="letras">B</div>
+    <div class="letras">C</div>
+    <div class="letras">D</div>
+    <div class="letras">E</div>
+    <div class="letras">F</div>-->
+
+</div>
+<div id="teclado">
+<div class="teclas">
+    <button id="teclas-A" onclick="verificarLetraEscolhida('A')">A</button>
+    <button id="teclas-B" onclick="verificarLetraEscolhida('B')">B</button>
+    <button id="teclas-C" onclick="verificarLetraEscolhida('C')">C</button>
+    <button id="teclas-D" onclick="verificarLetraEscolhida('D')">D</button>
+    <button id="teclas-E" onclick="verificarLetraEscolhida('E')">E</button>
+    <button id="teclas-F" onclick="verificarLetraEscolhida('F')">F</button>
+    <button id="teclas-G" onclick="verificarLetraEscolhida('G')">G</button>
+    <button id="teclas-H" onclick="verificarLetraEscolhida('H')">H</button>
+    <button id="teclas-I" onclick="verificarLetraEscolhida('I')">I</button>
+    </div>
+
+    <div class="teclas">
+        <button id="teclas-J" onclick="verificarLetraEscolhida('J')">J</button>
+        <button id="teclas-K" onclick="verificarLetraEscolhida('K')">K</button>
+        <button id="teclas-L" onclick="verificarLetraEscolhida('L')">L</button>
+        <button id="teclas-M" onclick="verificarLetraEscolhida('M')">M</button>
+        <button id="teclas-N" onclick="verificarLetraEscolhida('N')">N</button>
+        <button id="teclas-O" onclick="verificarLetraEscolhida('O')">O</button>
+        <button id="teclas-P" onclick="verificarLetraEscolhida('P')">P</button>
+        <button id="teclas-Q" onclick="verificarLetraEscolhida('Q')">Q</button>
+        <button id="teclas-R" onclick="verificarLetraEscolhida('R')">R</button>
+        </div>
+        <div class="teclas">
+            <button id="teclas-S" onclick="verificarLetraEscolhida('S')">S</button>
+            <button id="teclas-T" onclick="verificarLetraEscolhida('T')">T</button>
+            <button id="teclas-U" onclick="verificarLetraEscolhida('U')">U</button>
+            <button id="teclas-V" onclick="verificarLetraEscolhida('V')">V</button>
+            <button id="teclas-W" onclick="verificarLetraEscolhida('W')">W</button>
+            <button id="teclas-X" onclick="verificarLetraEscolhida('X')">X</button>
+            <button id="teclas-Y" onclick="verificarLetraEscolhida('Y')">Y</button>
+            <button id="teclas-Z" onclick="verificarLetraEscolhida('Z')">Z</button>
+            <button id="btnReiniciar">🎮</button>
+            </div>
+
+</div>
+<div id="categoria">
+<!--CATEGORIA -->
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jorca.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
